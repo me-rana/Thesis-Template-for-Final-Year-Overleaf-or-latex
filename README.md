@@ -1,11 +1,12 @@
 # Thesis-Template-for-Final-Year-Overleaf-or-latex
 This is the thesis template for Final Year of Honor's Final Year
 
-Welcome! This is Rana Bepari here. In my B.Sc. final year, I had to submit my thesis paper and did this in Overleaf(Latex).
-Then I think that is little bit difficult, but if I can make a template, It can be easier. That's why I made this template.
-![image](screenshots/ScreenshotP1.png)
-<br>Let's take a look on Table of Contents<br>
-![image](screenshots/ScreenshotP2.png)
+Welcome! This is Rana Bepari here. In my B.Sc. final year, I had to submit my thesis paper and did this in Overleaf (Latex).
+Then I think that is little bit difficult, but if I can make a template, It can be easier. That's why I made this template. <be>
+![image1](screenshots/ScreenshotP1.png)
+<br>
+<h6>Let's take a look on Table of Contents</h6>
+![image2](screenshots/ScreenshotP2.png)
 
 <h2>Feature of Project</h2>
 <ul>
@@ -17,9 +18,12 @@ Then I think that is little bit difficult, but if I can make a template, It can 
   <li>Added BibTex references into our references/reference.bib files, automatically visible to the paper</li>
 </ul>
 <br>
-![image](screenshots/ScreenshotP3.png)
-<br>![image](screenshots/ScreenshotP4.png)
-<br>![image](screenshots/ScreenshotP5.png)
-<br>![image](screenshots/ScreenshotP6.png)
+![image3](screenshots/ScreenshotP3.png)
+<br>
+![image4](screenshots/ScreenshotP4.png)
+<br>
+![image5](screenshots/ScreenshotP5.png)
+<br>
+![image6](screenshots/ScreenshotP6.png)
 
 
