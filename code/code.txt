@@ -1,0 +1,69 @@
+//Copyright © Rana Bepari - 2023
+#include <LiquidCrystal.h>
+int rs = 10 , en = 9 , d4 = 8 , d5 = 7 , d6 = 6 , d7 = 5 ;
+LiquidCrystal lcd ( rs , en , d4 , d5 , d6 , d7 ) ;
+
+//Device A
+const int trigPinA = 2;
+const int echoPinA = 3;
+const int relayPinA = 4;
+long durationA;
+int distanceA;
+
+//Device B
+const int trigPinB = 12;
+const int echoPinB = 13;
+const int relayPinB = 11;
+long durationB;
+int distanceB;
+
+
+const int DISTANCE_THRESHOLD = 10;
+
+
+void setup() 
+{
+  
+  lcd.begin ( 16, 2 ) ;
+  lcd.setCursor(1,0);
+  lcd.print("SWPT System By");
+  delay(3000);
+  lcd.setCursor(1,1);
+  lcd.print("Rana & Sukanta");
+  delay(5000);
+  lcd.clear();
+  lcd.clearWriteError();
+
+  //Sensor A
+  pinMode (relayPinA,OUTPUT);
+  pinMode (trigPinA,OUTPUT);
+  pinMode (echoPinA,INPUT);
+  //Sensor B
+  pinMode (relayPinB,OUTPUT);
+  pinMode (trigPinB,OUTPUT);
+  pinMode (echoPinB,INPUT);
+
+  Serial.begin(9600);
+
+  
+
+}
+void loop() 
+{
+  lcd.blink();
+  lcd.print("Welcome");
+  lcd.clear();
+  lcd.setCursor(1,0);
+  lcd.print("SWPT System By");
+  delay(3000);
+  lcd.setCursor(1,1);
+  lcd.print("Rana & Sukanta");
+  delay(5000);
+  lcd.clear();
+
+  //Please Write Your code and Remove all
+ 
+  
+  delay(1000);
+ 
+}
