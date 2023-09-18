@@ -6,7 +6,7 @@ Then I think that is little bit difficult, but if I can make a template, It can 
 ![image](screenshots/ScreenshotP1.png)
 <br>
 <h6>Let's take a look on Table of Contents</h6>
-![image](screenshots/ScreenshotP2.png)
+![image](./screenshots/ScreenshotP2.png)
 
 
 <h2>Feature of Project</h2>
@@ -19,6 +19,6 @@ Then I think that is little bit difficult, but if I can make a template, It can 
   <li>Added BibTex references into our references/reference.bib files, automatically visible to the paper</li>
 </ul>
 <br>
-![image](screenshots/ScreenshotP3.png)
+![image](./screenshots/ScreenshotP3.png)
 
 
