@@ -1,0 +1,60 @@
+% Project Submission Template for BSc Final Thesis/Project
+% Automated Reference Viewed System 
+% Standard Project/Thesis Template
+% © Rana Bepari - 2023
+% Website: https://rana.meranaint.com
+
+\documentclass[12pt,a4paper]{report}
+\usepackage{sectsty,lmodern}
+\usepackage{float}
+\usepackage{adjustbox}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+\usepackage{txfonts}
+\usepackage{subcaption}
+\usepackage[normalem]{ulem}
+\usepackage[paperheight=27.94cm,paperwidth=21.59cm,left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{pdfpages}
+\usepackage{natbib}
+\usepackage{fancyhdr}
+\usepackage{{datatool}}
+\usepackage{listings}
+\chapterfont{\fontsize{16pt}{14pt}\selectfont}
+\sectionfont{\fontsize{14pt}{12pt}\selectfont}
+\subsectionfont{\fontsize{14pt}{12pt}\selectfont}
+\DTLloaddb[noheader]{myself}{infographyofMERANAthesis/myself.txt}
+\DTLloaddb[noheader]{university}{infographyofMERANAthesis/university.txt}
+\DTLloaddb[noheader]{course}{infographyofMERANAthesis/course.txt}
+\DTLloaddb[noheader]{partner}{infographyofMERANAthesis/partner.txt}
+\DTLloaddb[noheader]{supervisor}{infographyofMERANAthesis/supervisor.txt}
+\DTLloaddb[noheader]{thesisTitle}{infographyofMERANAthesis/thesisTitle.txt}
+\setlength\parindent{0pt}
+\renewcommand{\arraystretch}{1.3}
+\linespread{1.5} 	
+\begin{document}
+
+\input{coverpage}
+
+\input{overview}
+
+\input{chapter1}
+
+\input{chapter2}
+
+\input{chapter3}
+
+\input{chapter4}
+
+\input{chapter5}
+
+\input{reference}
+
+
+
+\end{document}
+
+
+	

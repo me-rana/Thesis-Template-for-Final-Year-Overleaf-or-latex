@@ -1,0 +1,50 @@
+\begin{titlepage}
+\thispagestyle{empty}
+    \begin{center}
+       \fontsize{14pt}{12pt}\selectfont Project Report On \break 
+       
+       \fontsize{16pt}{14pt}\selectfont 
+       \DTLforeach{thesisTitle}{\thesisTitle=Column1}{\vspace*{\stretch{1}}\textbf{\thesisTitle}\\}
+    \end{center}
+    \begin{center}
+	A project report submitted in fulfillment of requirements for Degree of
+	\end{center}
+	
+	
+	\begin{center}
+	\DTLforeach{course}{\DegreeName=Column1,\Subject=Column2}{\vspace*{\stretch{1}}\DegreeName\\In\\\Subject\\}
+	\end{center}
+	
+	
+	
+	
+	
+	\begin{center}
+	\textbf{National University of Bangladesh}
+	\end{center}
+	
+	
+	\textbf{\begin{figure}[H]
+	\centering
+	\includegraphics[width=4.37cm,height=5.03cm]{./images/image1.png}
+	\end{figure}
+	}
+	
+	\begin{center}
+	\uline{Prepared By}
+	\end{center}
+	
+	
+	
+        \begin{center}
+   \DTLforeach{myself}{\StudentName=Column1,\StudentReg=Column2,\StudentID=Column3,\Session=Column4}{\vspace*{\stretch{1}}Name : \textbf{\StudentName}\\Reg. No : \StudentReg\\Roll No : \StudentID\\Session : \Session\\}
+	\end{center}
+	
+	
+	\begin{center}
+ % Institute of Science, Trade $\&$ Technology (ISTT) \\
+	% Mirpur-13, Dhaka -1216. \href{http://www.istt.edu.bd}{www.istt.edu.bd}
+
+ \DTLforeach{university}{\UniversityName=Column1,\Location=Column2,\Area=Column3,\urlx=Column4}{\vspace*{\stretch{1}}\textbf{\UniversityName}\\\Location,\Area,\href{\urlx}{\urlx}\\}
+	\end{center}
+ \end{titlepage}
