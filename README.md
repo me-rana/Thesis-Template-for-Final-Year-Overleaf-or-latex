@@ -6,7 +6,7 @@ Then I think that is little bit difficult, but if I can make a template, It can 
 ![image](screenshots/ScreenshotP1.png)
 <br>
 <h6>Let's take a look on Table of Contents</h6>
-![image](./screenshots/ScreenshotP2.png)
+![image]([screenshots/ScreenshotP1.png](https://github.com/me-rana/Thesis-Template-for-Final-Year-Overleaf-or-latex/blob/main/screenshots/ScreenshotP2.png))
 
 
 <h2>Feature of Project</h2>
