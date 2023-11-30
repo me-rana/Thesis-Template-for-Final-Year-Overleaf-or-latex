@@ -25,6 +25,6 @@ Then I think that is little bit difficult, but if I can make a template, It can 
 <br> <br>
 Thanks,<br>
 Rana Bepari <br>
-<a href="https://rana.meranaint.com/">https://rana.meranaint.com/</a>
+<a href="https://ranasvc.com/">Official Website</a>
 
 
